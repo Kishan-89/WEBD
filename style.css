@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+.navbar{
+
+    background-color:#96D4D4;
+    color:red;
+    
+}
+header{
+    
+}
+header div ul {
+
+    list-style-type: none;
+    display: flex;
+    
+    /* justify-content: right; */
+    translate: 75% 0;
+}
+header div ul li a {
+
+    text-decoration: none;
+    color: aqua;
+}
+
+.navele{
+    padding: 5px;
+    margin: 7px;
+}
+
+li a:hover{
+    color:blue;
+}
+
+
+main{
+    display: flex;
+    
+    /* left: 120px; */
+}
+.first{
+
+     height: 35vh;
+    width:35vw;
+    
+    overflow: hidden;
+    }
+.second{
+
+    height: 35vh;
+    width:35vw;
+   overflow: hidden;
+}
+main div p:hover{
+
+    
+    text-decoration: blink coral;
+    border: #1f160a;
+    
+}
+main div::after{
+
+    color:blueviolet;
+    font-style:italic;
+    
+} 
+
+
+
+body{
+    background-image: url('/images/—Pngtree—beautiful hologram -color  _3643167.png');
+   
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: 80% 80%;
+    
+    background-position: center;
+} 
+ .leftdropdown{
+    height:100vh;
+    width:10vw;
+}
+.headings{
+   
+    position:sticky;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
+   th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-top-color: rgb(51, 22, 93);
+    border-bottom-color: rgb(174, 28, 30);
+    border-left-color: #263403;
+    border-right-color: #f44336;
+      
+  }
+  table{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+  }
+
+  
+  th:nth-child(odd),td:nth-child(odd){
+    background-color: #D6EEEE;
+
+  }
+  th:nth-child(even),td:nth-child(even){
+    background-color: #136269b6;
+
+  }
+ 
