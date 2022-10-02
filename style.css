@@ -29,6 +29,7 @@ header div ul li a {
 .navele{
     padding: 5px;
     margin: 7px;
+    box-sizing: border-box;
 }
 
 li a:hover{
@@ -94,6 +95,7 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display:inline-block;
+    box-sizing: border-box;
   }
   
   a:hover, a:active {
@@ -108,6 +110,7 @@ a:link, a:visited {
     border-bottom-color: rgb(174, 28, 30);
     border-left-color: #263403;
     border-right-color: #f44336;
+    box-sizing: border-box;
       
   }
   table{
@@ -132,6 +135,7 @@ a:link, a:visited {
     padding: 10px;
     border: 1px solid black;
     overflow: hidden;
+    box-sizing: border-box;
   }
 
   .music{
