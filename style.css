@@ -124,4 +124,22 @@ a:link, a:visited {
     background-color: #136269b6;
 
   }
+  #div1, #div2 {
+    float: left;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+
+  .music{
+
+    background-color: cornflowerblue;
+    height: 600px;
+    width: 100vw;
+    display: flex;
+
+  }
  
