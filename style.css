@@ -1,40 +1,73 @@
 *{
     margin: 0%;
     padding:0%;
+    box-sizing: border-box;
 }
 
 .navbar{
-
+  
     background-color:#96D4D4;
     color:red;
+   
+    /* height:500px; */
     
 }
+.contactdropdown{
+  position: absolute;
+  display: none;
+
+z-index:1;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.contactdropdown a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+ 
+
+ #drop:hover .contactdropdown {
+  display:block;
+    color:blue;
+
+  
+}
 header{
+    position: sticky;
+    top: 0;
+    
     
 }
 header div ul {
 
     list-style-type: none;
     display: flex;
+    justify-content: right; 
+    text-align: center;
     
-    /* justify-content: right; */
-    translate: 75% 0;
+    
 }
-header div ul li a {
-
+a:visited,a:link {
+    
     text-decoration: none;
-    color: aqua;
-}
-
-.navele{
+    color: rgb(7, 22, 22);
     padding: 5px;
-    margin: 7px;
-    box-sizing: border-box;
+    margin: 2px 10px;
+    background-color: #f44336;
+    display: block;
+    
 }
 
-li a:hover{
-    color:blue;
+
+
+ul li{ 
+  
+  margin: 3px 0px;
+  
 }
+
+
 
 
 main{
@@ -44,106 +77,104 @@ main{
 }
 .first{
 
-     height: 35vh;
-    width:35vw;
+    height: 35vh;
+    width:25vw;
     
-    overflow: hidden;
+    overflow: auto;
     }
 .second{
 
     height: 35vh;
-    width:35vw;
-   overflow: hidden;
+    width:25vw;
+    overflow: auto;
 }
 main div p:hover{
+ line-height:24Px;
+  }
 
-    
-    text-decoration: blink coral;
-    border: #1f160a;
-    
-}
-main div::after{
-
-    color:blueviolet;
-    font-style:italic;
-    
-} 
 
 
 
 body{
-    background-image: url('/images/—Pngtree—beautiful hologram -color  _3643167.png');
+    background-image: url('/images/dus2.1.jpg');
    
     background-attachment: fixed;
-    background-repeat:no-repeat;
-    background-size: 80% 80%;
+    background-repeat:repeat;
+    background-size: fit;
     
     background-position: center;
+    font-family: sans-serif;
 } 
- .leftdropdown{
+ /* .leftdropdown{
     height:100vh;
     width:10vw;
+} */
+
+
+
+
+
+th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  border-radius: 10px;
+  border-top-color: rgb(51, 22, 93);
+  border-bottom-color: rgb(174, 28, 30);
+  border-left-color: #263403;
+  border-right-color: #f44336;
+  box-sizing: border-box;
+    
 }
-.headings{
-   
-    position:sticky;
+table{
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
 }
-a:link, a:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 10px 5px;
-    text-align: center;
-    text-decoration: none;
-    display:inline-block;
-    box-sizing: border-box;
-  }
-  
-  a:hover, a:active {
-    background-color: red;
-  }
 
-   th, td {
-    border: 2px solid white;
-    border-collapse: collapse;
-    border-radius: 10px;
-    border-top-color: rgb(51, 22, 93);
-    border-bottom-color: rgb(174, 28, 30);
-    border-left-color: #263403;
-    border-right-color: #f44336;
-    box-sizing: border-box;
-      
-  }
-  table{
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 20px;
-  }
 
-  
-  th:nth-child(odd),td:nth-child(odd){
-    background-color: #D6EEEE;
+th:nth-child(odd),td:nth-child(odd){
+  background-color: #D6EEEE;
 
+}
+th:nth-child(even),td:nth-child(even){
+  background-color: #136269b6;
+
+}
+#div1, #div2 {
+  float: left;
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.music audio{
+ 
+ display:block;
+ 
+}
+
+@media screen and (max-width: 600px) {
+  header div ul  {
+
+    display: block;
+    height: auto;
+    }
+    a:visited,a:link {
+      position:relative;
+      margin-bottom: 10px;
+      bottom:5px;
+    }
+
+  main{
+
+    display: block;
+    
   }
-  th:nth-child(even),td:nth-child(even){
-    background-color: #136269b6;
-
+  .first,.second{
+    width: 100%;
   }
-  #div1, #div2 {
-    float: left;
-    width: 400px;
-    height: 100px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
-    overflow: hidden;
-    box-sizing: border-box;
-  }
+}
 
-  .music{
-
-    background-color: cornflowerblue;
-    height: 600px;
-    width: 100vw;
-    display: flex;
-
-  }
  
