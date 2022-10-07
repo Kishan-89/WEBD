@@ -21,11 +21,16 @@
                     <li class="navele"><a href="index.html" title="Home" target="_self">Home</a></li>
                     <li class="navele"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_parent"
                             title="About Me"> About</a></li>
-                    <li class="navele"> <a title="Contact Me" target="_top " href="https://www.google.com">Contact </a>
-                    </li>
-                    <li class="navele"><a href="mailto:kishanrsingh123@gmail.com" target="_parent" title="Compose">Send
-                            me a
-                            Mail</a></li>
+                    <div id="drop">
+                        <li class="navele"> <a title="Contact Me" target="_top " href="https://www.google.com">Contact </a>
+                            <div class="contactdropdown">
+                                <p><a title="Mail" href="#Mail">Mail Me</a></p>
+                                <p><a title="Whatsapp" href="#Mail">Whatsapp Me</a></p>
+                                <p><a title="Call" href="#Mail">Call Me</a></p>
+                            </div>
+                        </li>
+                    </div>
+                    <li class="navele"><a href="mailto:kishanrsingh123@gmail.com" target="_parent" title="Compose">Send me a Mail</a></li>
                 </ul>
 
             </div>
@@ -232,22 +237,23 @@
 
    
  <div class="music"> 
-        <audio  ondragstart="drag(event)" id="drag2" style="float:right;padding:10px; background-color: aqua;"controls  loop >
+        <audio   style="background-color: aqua;"controls  loop >
             <source src="/music_files/Manike_Mage_Hithe_3.7_MB.wav" type="audio/mp3" >
            
 
         </audio>
-        <audio  ondragstart="drag(event)" id="drag2" style="float:right;padding:10px; background-color: aqua;"controls  loop >
+        <audio style="background-color: aqua;"controls  loop >
             
             <source src="/music_files/Maine tera naam dil.mp3.aac" type="audio/mp3" >
             
 
         </audio>
-        <audio  ondragstart="drag(event)" id="drag2" style="float:right;padding:10px; background-color: aqua;"controls loop >
+        <audio   style="background-color: aqua;"controls loop >
             
             <source src="/music_files/AUD-20220826-WA0003.mp3" type="audio/mp3" >
 
         </audio>
+        
     </div>
 
 
